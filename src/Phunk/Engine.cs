@@ -36,8 +36,7 @@ namespace Phunk
 
 			D.@true = NewValue(true);
 			D.@false = NewValue(false);
-
-			//D.Arguments = NewValue();
+            
 			D.Null = NewValue();
             D.Null.Name = "I'm a null";
 		
