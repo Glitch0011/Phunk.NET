@@ -2,3 +2,5 @@ solution: Phunk.NET.sln
 language: csharp
 dotnet: 1.0.0-preview2-003121
 mono: none
+dist: trusty
+sudo: required
