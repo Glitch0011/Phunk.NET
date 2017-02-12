@@ -6,7 +6,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>4eaa0b9a-9a3f-4e61-a68a-2b2fc392e6b9</ProjectGuid>
+    <ProjectGuid>ffbf106e-45f0-43c9-b195-609faff2c57a</ProjectGuid>
     <RootNamespace>PhunkTest</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
