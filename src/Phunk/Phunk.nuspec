@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Phunk.Phunk.Phunk</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/Glitch0011/Phunk/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/Glitch0011/Phunk</projectUrl>
+    <iconUrl>https://github.com/Glitch0011/Phunk/raw/master/phunkIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First commit.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>scripting</tags>
+  </metadata>
+</package>

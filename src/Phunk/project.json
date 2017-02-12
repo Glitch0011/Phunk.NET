@@ -1,6 +1,5 @@
 {
   "version": "0.0.0.1",
-
   "dependencies": {
     "System.ComponentModel.TypeConverter": "4.3.0",
     "System.Dynamic.Runtime": "4.3.0",
@@ -10,9 +9,8 @@
   },
   "description": "A simple scripting engine",
   "authors": [ "Tom Bonner" ],
-  "title": "Phunk",
+  "title": "Phunk.NET",
   "copyright": "MIT",
-  "projectUrl": "https://github.com/Glitch0011/Phunk/",
   "packOptions": {
     "repository": {
       "type": "git",
@@ -25,7 +23,6 @@
     "licenseUrl": "https://github.com/Glitch0011/Phunk/raw/master/LICENSE.txt"
   },
   "language": "eng",
-
   "frameworks": {
     "netstandard1.6": {
       "imports": "dnxcore50"
