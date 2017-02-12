@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EngineRunner": {
+      "commandName": "Project",
+      "commandLineArgs": "play.txt"
+    }
+  }
+}
