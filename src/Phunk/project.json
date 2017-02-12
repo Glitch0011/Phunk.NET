@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "0.0.0.1",
 
   "dependencies": {
     "System.ComponentModel.TypeConverter": "4.3.0",
@@ -8,6 +8,23 @@
     "Microsoft.CSharp": "4.3.0",
     "NETStandard.Library": "1.6.1"
   },
+  "description": "A simple scripting engine",
+  "authors": [ "Tom Bonner" ],
+  "title": "Phunk",
+  "copyright": "MIT",
+  "projectUrl": "https://github.com/Glitch0011/Phunk/",
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Glitch0011/Phunk"
+    },
+    "owners": [ "Tom Bonner" ],
+    "iconUrl": "https://github.com/Glitch0011/Phunk/raw/master/phunkIcon.png",
+    "tags": [ "scripting" ],
+    "summary": "A simple scripting engine",
+    "licenseUrl": "https://github.com/Glitch0011/Phunk/raw/master/LICENSE.txt"
+  },
+  "language": "eng",
 
   "frameworks": {
     "netstandard1.6": {
