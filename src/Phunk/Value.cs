@@ -10,7 +10,7 @@ using Phunk.Luan.Expressions;
 using Phunk.Luan.Interfaces;
 using System.Reflection;
 
-namespace Phunk.Values
+namespace Phunk
 {
     public class Value : DynamicObject, IConvertible
 	{
