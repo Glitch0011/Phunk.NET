@@ -4,3 +4,6 @@ dotnet: 1.0.0-preview2-003121
 mono: none
 dist: trusty
 sudo: required
+install:
+    - dotnet restore
+    - dotnet build .\src\Phunk
