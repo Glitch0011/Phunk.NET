@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Phunk.Luan.Interfaces
 {
-	public static class ListExtensions
+    internal static class ListExtensions
 	{
 		public static T Pull<T>(this List<T> list) where T : class
 		{

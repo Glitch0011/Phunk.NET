@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace Phunk.Luan
 {
-	internal static class StringMatch
+    internal static class StringMatch
 	{
 		public static Match Match(this string str, string regex)
 		{

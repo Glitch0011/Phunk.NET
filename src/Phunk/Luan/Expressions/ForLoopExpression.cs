@@ -3,7 +3,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class ForLoopExpression : Expression
+    internal class ForLoopExpression : Expression
 	{
 		public IExpression OnExecute { get; set; }
 		private IExpression InitExpression { get; }

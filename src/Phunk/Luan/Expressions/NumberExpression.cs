@@ -5,7 +5,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class NumberExpression : Expression
+    internal class NumberExpression : Expression
 	{
 		private readonly object NumberValue;
 

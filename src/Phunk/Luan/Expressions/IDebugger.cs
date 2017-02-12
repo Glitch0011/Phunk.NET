@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public interface IDebugger
+    public interface IDebugger
 	{
 		void OnPreEvaluateExpression(Expression e, ValueContainer scopes);
 		Value OnPostEvaluateExpression(Expression e, ValueContainer scopes, Value a);

@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan
 {
-	public interface IEngine
+    public interface IEngine
 	{
 		Value NewValue(object raw = null, Value @class = null);
 		Guid Id { get; set; }

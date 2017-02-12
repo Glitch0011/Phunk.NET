@@ -2,7 +2,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions.KeywordExpressions
 {
-	public class ReturnKeywordExpressionBuilder : KeywordExpressionBuilder
+    internal class ReturnKeywordExpressionBuilder : KeywordExpressionBuilder
 	{
 		public override string Keyword => "return";
 

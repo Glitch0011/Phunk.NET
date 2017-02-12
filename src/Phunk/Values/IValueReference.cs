@@ -1,6 +1,7 @@
 namespace Phunk.Values
 {
-	public interface IValueReference
+    internal interface IValueReference
 	{
+
 	}
 }

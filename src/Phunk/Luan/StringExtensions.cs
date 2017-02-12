@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace Phunk.Luan
 {
-	public static class StringExtensions
+    internal static class StringExtensions
 	{
 		public static string Rejoin(this IEnumerable<char> e)
 		{

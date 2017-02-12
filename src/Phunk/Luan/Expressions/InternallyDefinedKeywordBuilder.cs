@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class InternallyDefinedKeywordBuilder : IKeyworkBuilder
+    internal class InternallyDefinedKeywordBuilder : IKeyworkBuilder
 	{
 		public dynamic Value { get; set; }
 

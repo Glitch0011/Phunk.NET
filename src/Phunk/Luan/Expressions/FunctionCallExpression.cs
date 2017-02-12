@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace Phunk.Luan.Expressions
 {
-	internal class FunctionCallExpression : Expression
+    internal class FunctionCallExpression : Expression
 	{
 		public string Function { get; }
 		public IExpression FunctionExpression { get; }

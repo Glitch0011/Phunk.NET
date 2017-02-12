@@ -10,8 +10,9 @@ using Phunk.Luan.Expressions;
 using Phunk.Luan.Interfaces;
 using Phunk.Values;
 using System.Reflection;
+using Phunk.Luan;
 
-namespace Phunk.Luan
+namespace Phunk
 {
 	public class Engine : Executable
 	{
@@ -497,7 +498,7 @@ namespace Phunk.Luan
 			};
 		}
 		
-		public override object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null)
+		protected override object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null)
 		{
 			object lastVal = null;
 

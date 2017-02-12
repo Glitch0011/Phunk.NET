@@ -12,7 +12,7 @@ using System.Reflection;
 
 namespace Phunk.Values
 {
-	public class Value : DynamicObject, IConvertible
+    public class Value : DynamicObject, IConvertible
 	{
         public Guid Guid;
 

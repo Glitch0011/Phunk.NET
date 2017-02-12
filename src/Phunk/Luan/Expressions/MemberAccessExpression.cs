@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-    public class MemberAccessExpression : Expression
+    internal class MemberAccessExpression : Expression
     {
         private IExpression Value { get; }
         private IExpression Member { get; }

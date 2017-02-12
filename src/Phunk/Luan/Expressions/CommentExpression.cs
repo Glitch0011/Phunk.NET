@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class CommentExpression : Expression
+    internal class CommentExpression : Expression
 	{
 		public string text;
 

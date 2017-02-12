@@ -9,7 +9,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan
 {
-	public class EngineExecuter : Executable, IDisposable
+    public class EngineExecuter : Executable, IDisposable
 	{
 		public Engine Engine { get; set; }
 
@@ -99,7 +99,7 @@ namespace Phunk.Luan
             }
         }
 
-		public override object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null)
+		protected override object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null)
 		{
 			object ret = null;
 

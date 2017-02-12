@@ -12,7 +12,7 @@ namespace Phunk.Luan.Exceptions
         private string RightClass { get; }
         private string Operator { get; }
 
-        public ValidOperatorNotFoundException(IEnumerable<FunctionAbstract> expressions, string leftClass, string rightClass,
+        internal ValidOperatorNotFoundException(IEnumerable<FunctionAbstract> expressions, string leftClass, string rightClass,
             string @operator)
         {
             Expressions = expressions;

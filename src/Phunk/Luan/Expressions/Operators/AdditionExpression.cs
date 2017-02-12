@@ -2,7 +2,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions.Operators
 {
-	public class AdditionExpression : OperatorExpression
+    internal class AdditionExpression : OperatorExpression
 	{
 		protected override string Sign => "+";
 

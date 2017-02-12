@@ -7,7 +7,7 @@ using System;
 
 namespace Phunk.Luan.Expressions
 {
-	public class LambdaExpression : Expression
+    internal class LambdaExpression : Expression
 	{
 		public IList<ArgumentDefinition> Arguments { get; }
 

@@ -4,7 +4,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions.KeywordExpressions
 {
-	public class ForLoopExpressionBuilder : KeywordExpressionBuilder
+	internal class ForLoopExpressionBuilder : KeywordExpressionBuilder
 	{
         public override string Keyword => "for";
 

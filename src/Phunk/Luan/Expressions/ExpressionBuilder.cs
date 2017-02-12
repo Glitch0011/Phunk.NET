@@ -24,7 +24,7 @@ namespace Phunk.Luan.Expressions
         public string Replacement { get; set; }
     }
 
-	public class ExpressionBuilder
+    internal class ExpressionBuilder
 	{
 		public Stack<Expression> ExpressionStack { get; } = new Stack<Expression>();
 		public int TabCount => ExpressionStack.Count;

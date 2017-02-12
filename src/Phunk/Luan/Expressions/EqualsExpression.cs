@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class EqualsExpression : AssignmentExpression
+    internal class EqualsExpression : AssignmentExpression
 	{
 		public EqualsExpression(IExpression left, IExpression right) : base(left, right)
 		{

@@ -4,7 +4,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class IndentedExpression : Expression
+    internal class IndentedExpression : Expression
 	{
 		public IExpression Expression { get; }
 

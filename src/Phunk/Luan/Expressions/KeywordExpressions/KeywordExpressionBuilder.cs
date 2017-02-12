@@ -3,7 +3,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions.KeywordExpressions
 {
-	public abstract class KeywordExpressionBuilder: IKeyworkBuilder
+    internal abstract class KeywordExpressionBuilder: IKeyworkBuilder
 	{
 		public abstract string Keyword { get; }
 

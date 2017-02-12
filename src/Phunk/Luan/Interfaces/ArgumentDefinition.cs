@@ -1,6 +1,6 @@
 namespace Phunk.Luan.Interfaces
 {
-	public class ArgumentDefinition
+    internal class ArgumentDefinition
 	{
 		public string Name { get; }
 		public string Type { get; }

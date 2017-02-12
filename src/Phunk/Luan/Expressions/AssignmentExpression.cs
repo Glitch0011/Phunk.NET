@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Phunk.Luan.Expressions
 {
-	public class AssignmentExpression : Expression
+    internal class AssignmentExpression : Expression
 	{
 		protected IExpression Left { get; }
 		protected IExpression Right { get; }

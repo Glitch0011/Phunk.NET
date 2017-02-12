@@ -7,7 +7,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan
 {
-	public class PhunkDebugger : IDebugger
+    internal class PhunkDebugger : IDebugger
 	{
 		private int Tab { get; set; }
 

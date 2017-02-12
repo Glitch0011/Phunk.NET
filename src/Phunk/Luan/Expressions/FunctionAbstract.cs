@@ -6,7 +6,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions
 {
-	public class FunctionAbstract
+    internal class FunctionAbstract
 	{
 		public object Raw { get; set; }
 

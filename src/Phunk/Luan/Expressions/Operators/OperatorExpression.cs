@@ -7,7 +7,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions.Operators
 {
-	public class OperatorExpression : AssignmentExpression
+    internal class OperatorExpression : AssignmentExpression
 	{
 		protected virtual string Sign { get; } = string.Empty;
 

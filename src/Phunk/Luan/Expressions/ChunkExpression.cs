@@ -6,7 +6,7 @@ using System;
 
 namespace Phunk.Luan.Expressions
 {
-	public class ChunkExpression : Expression
+    internal class ChunkExpression : Expression
 	{
 		public IList<IExpression> Expressions { get; } = new List<IExpression>();
 

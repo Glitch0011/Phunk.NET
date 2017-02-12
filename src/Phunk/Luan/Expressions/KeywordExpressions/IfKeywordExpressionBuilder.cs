@@ -3,7 +3,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions.KeywordExpressions
 {
-	public class IfKeywordExpressionBuilder : KeywordExpressionBuilder
+    internal class IfKeywordExpressionBuilder : KeywordExpressionBuilder
 	{
 		public override string Keyword => "if";
 

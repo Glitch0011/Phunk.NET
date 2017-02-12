@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Phunk.Luan.Expressions
 {
-	public class InternallyDefinedExpression : IExpression
+    internal class InternallyDefinedExpression : IExpression
 	{
 		public Engine Engine { get; set; }
 		public dynamic Value { get; set; }

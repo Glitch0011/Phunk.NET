@@ -10,7 +10,7 @@ using System.Reflection;
 
 namespace Phunk.Luan
 {
-	public abstract class Executable : DynamicObject, IEngine
+    public abstract class Executable : DynamicObject, IEngine
 	{
         public string Name { get; set; } = "Default";
 
@@ -58,7 +58,7 @@ namespace Phunk.Luan
 			}), args);
 		}
 
-		public abstract object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null);
+		protected abstract object RunLines(IEnumerable<CodeLine> code, Tuple<string, Value>[] args = null);
 
 		[DebuggerStepThrough]
 		public override bool TryInvoke(InvokeBinder binder, object[] args, out object result)

@@ -2,7 +2,7 @@ using Phunk.Luan.Interfaces;
 
 namespace Phunk.Luan.Expressions
 {
-	public class CodeLine
+    public class CodeLine
 	{
 		public string Raw { get; set; }
 

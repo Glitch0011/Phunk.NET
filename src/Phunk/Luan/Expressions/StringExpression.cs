@@ -3,7 +3,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class StringExpression : Expression
+    internal class StringExpression : Expression
 	{
 		private readonly string StringValue;
 

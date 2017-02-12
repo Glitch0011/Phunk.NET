@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace Phunk.Luan.Interfaces
 {
-	public class ArgumentResult
+    internal class ArgumentResult
 	{
 		public string value;
 		public int position;
 	}
 
-	public static class ArgumentParser
+    internal static class ArgumentParser
 	{
 		public static IList<ArgumentResult> Parse(string stringArguments)
 		{

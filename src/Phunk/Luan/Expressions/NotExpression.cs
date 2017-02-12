@@ -3,7 +3,7 @@ using Phunk.Values;
 
 namespace Phunk.Luan.Expressions
 {
-	public class NotExpression : Expression
+    internal class NotExpression : Expression
 	{
 		public IExpression Value { get; set; }
 
