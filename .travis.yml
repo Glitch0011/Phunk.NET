@@ -6,4 +6,4 @@ dist: trusty
 sudo: required
 install:
     - dotnet restore
-    - dotnet build .\\src\\Phunk
+    - dotnet build ./src\/Phunk
