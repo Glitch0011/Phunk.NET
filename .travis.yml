@@ -7,3 +7,4 @@ sudo: required
 script:
     - dotnet restore
     - dotnet build ./src/Phunk
+	- dotnet test ./test/Phunk.Test.NET
